@@ -1,0 +1,5 @@
+<?php		//Write a PHP script that removes the whitespaces from a string
+$string="Hell o my frie nd";
+$string = str_replace(' ', '', $string);
+echo $string;
+?>

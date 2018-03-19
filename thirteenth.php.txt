@@ -1,0 +1,23 @@
+
+<?php	
+
+/*
+Create a script to construct the following pattern, using nested for loop.
+*
+* *
+* * *
+* * * *
+* * * * *
+*/
+
+$row=5;
+$col=5;
+for($i=1;$i<=$row;$i++)
+{
+	for($j=1;$j<=$i;$j++)
+	{
+		echo '*';
+	}
+	echo "\r\n";
+}
+?>

@@ -1,0 +1,26 @@
+<?php	//WAP to sort an array.
+$arr=array(1,4,2,6,3,5,0);
+$size=count($arr);
+
+echo ("Unsorted array: ");
+
+for($i=0;$i<$size;$i++)
+{
+    echo(" ".$arr[$i]);
+}
+
+for($i=0;$i<$size;$i++)
+  for($j=$i;$j<$size;$j++)
+    if($arr[$i]>$arr[$j])
+    {
+        $tmp=$arr[$i];
+        $arr[$i]=$arr[$j];
+        $arr[$j]=$tmp;
+    }
+
+echo ("\nSorted array: ");
+for($i=0;$i<$size;$i++)
+{
+    echo(" ".$arr[$i]);
+}
+?>

@@ -1,0 +1,8 @@
+
+<?php	//Write a PHP script that checks if a string contains another string
+$a = 'Are you okay? You do not seem okay.';
+
+if (strpos($a, 'Are you okay?') !== false) {
+    echo '"Are you okay?" is present in the string.';
+}
+?>

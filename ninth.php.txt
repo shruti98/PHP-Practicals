@@ -1,0 +1,11 @@
+<?php		//Write a PHP script that removes the whitespaces from a string.
+$sum=0;
+$n=5;
+for($i=1;$i<=$n;)
+{
+	$sum=$sum+$i;
+	$i=$i+2;
+}
+echo("Sum of first 10 odd numbers is : ");
+echo($sum);
+?>
