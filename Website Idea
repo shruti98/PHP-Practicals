@@ -1,0 +1,9 @@
+IDEA:
+
+Online Coffee Shop Menu
+
+-provides entire menu of the coffee shop
+-user can also search for a particular category of items, such as HOT COFFEE, COLD COFFEE, BREADS, DESSERTS
+-information includes each item's name, description, ingredients used and cost
+-does not need login/registration; anyone can access this information
+
