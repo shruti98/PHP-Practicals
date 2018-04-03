@@ -1,4 +1,4 @@
-IDEA:
+IDEAS:
 
 Online Coffee Shop Menu
 
@@ -7,3 +7,8 @@ Online Coffee Shop Menu
 -information includes each item's name, description, ingredients used and cost
 -does not need login/registration; anyone can access this information
 
+Online Calculator
+
+-allows user to input values to be operated on
+-allows addition, subtraction, multiplication, division, square, cube, square root
+-ouputs result
